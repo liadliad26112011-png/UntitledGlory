@@ -97,7 +97,7 @@ continueBtn.MouseButton1Click:Connect(function()
 end)
 
 local mainFrame = Instance.new("Frame", screenGui)
-mainFrame.Size = UDim2.new(0, 600, 0, 520)
+mainFrame.Size = UDim2.new(0, 700, 0, 800)
 mainFrame.Position = UDim2.new(0, 50, 0, 50)
 mainFrame.BackgroundColor3 = COLOR_MAIN_BG
 mainFrame.BorderSizePixel = 0
