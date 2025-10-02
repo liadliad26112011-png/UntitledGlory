@@ -563,7 +563,7 @@ createKeyBox(miscTab, "Speed Toggle", miscY, speedKey, function(newKey)
     speedButton.Text = "Speed: "..(speedEnabled and "ON ("..speedKey..")" or "OFF ("..newKey..")")
 end) miscY += 50
 
-createSlider(miscTab, "WalkSpeed", miscY, 16, 200, 16, function(v) walkSpeed = v end)
+createSlider(miscTab, "WalkSpeed", miscY, 16, 5000, 16, function(v) walkSpeed = v end)
 miscY += 50
 
 -- VOID toggle
